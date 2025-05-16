@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Finance Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💸 Finance Manager</h1>
+
+    <div class="summary">
+      <div class="card income-card">
+        <h3>Total Income</h3>
+        <p id="income">₹0</p>
+      </div>
+      <div class="card expense-card">
+        <h3>Total Expense</h3>
+        <p id="expense">₹0</p>
+      </div>
+      <div class="card balance-card">
+        <h3>Balance</h3>
+        <p id="balance">₹0</p>
+      </div>
+    </div>
+
+    <form id="income-form">
+      <h3>Set Income</h3>
+      <input type="number" id="income-input" placeholder="Enter total income (₹)" required />
+      <button type="submit">Set Income</button>
+    </form>
+
+    <form id="expense-form">
+      <h3>Add Expense</h3>
+      <input type="text" id="description" placeholder="Expense Description" required />
+      <input type="number" id="expense-amount" placeholder="Expense Amount (₹)" required />
+      <button type="submit">Add Expense</button>
+    </form>
+
+    <ul id="transaction-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
