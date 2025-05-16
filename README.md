@@ -109,6 +109,9 @@ The design prioritizes:
 This Finance Manager web application is a practical and efficient tool for managing personal budgets using only **client-side web technologies**. It provides a clean user experience while implementing essential financial tracking features.
 
 
+##output
+![Image](https://github.com/user-attachments/assets/f1f48fe4-2de4-4517-ae03-e3ac94c7bd01)
+
 
 
 
